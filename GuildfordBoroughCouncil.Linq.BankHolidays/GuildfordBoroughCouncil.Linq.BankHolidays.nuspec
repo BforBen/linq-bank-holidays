@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/GuildfordBC/linq-bank-holidays/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/GuildfordBC/linq-bank-holidays</projectUrl>
+    <iconUrl>http://cdn.guildford.gov.uk/assets/favicon-32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Guildford Borough Council 2015</copyright>
+    <language>en-GB</language>
+    <dependencies>
+       <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
+       <dependency id="Newtonsoft.Json" version="6.0.4" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.Caching" targetFramework="net45" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
