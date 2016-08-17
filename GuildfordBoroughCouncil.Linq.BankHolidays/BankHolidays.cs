@@ -25,7 +25,7 @@ namespace GuildfordBoroughCouncil.Linq
                 {
                     client.BaseAddress = Properties.Settings.Default.LookupServiceUri;
 
-                    var response = client.GetAsync("BankHolidaysAndClosures").Result;
+                    var response = client.GetAsync("v1/bank-holidays-closures").Result;
 
                     using (HttpContent content = response.Content)
                     {
